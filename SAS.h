@@ -210,9 +210,9 @@ void ssort(float arr[],int N)
         s.flowest = arr[s.j];
       }
     }
-    s.temp = arr[s.i];
+    s.ftemp = arr[s.i];
     arr[s.i] = arr[s.loc];
-    arr[s.loc] = s.temp;
+    arr[s.loc] = s.ftemp;
   }
 }
 /*Linear Search for Floating Point Numbers*/
